@@ -1,0 +1,42 @@
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+   
+}
+
+h1,h2,h3,h4, .gugi-font {
+    font-family: 'Gugi', cursive;
+}
+/* 네비게이션영역 */
+.nav-link:hover,
+.nav-link.active {
+    color:rgb(236, 209, 32) !important;
+}
+
+/* 헤더영역 */
+header{
+    background-image:linear-gradient(to top, rgba(255, 255, 255, 0.8),
+                     rgba(39, 16, 38, 0.83)), url(images/main-bg.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+/* 서비스영역 */
+.card-hover:hover {
+    background-color:rgba(236, 209, 32, 0.216);
+}
+
+/* sns영역 */
+#sns-link {
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8),
+                     rgb(0,0,0,.2)), url(images/sns-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#news {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgb(0,0,0,.2)), url(images/news-bg.jpg);
+    background-size: cover;
+
+}
